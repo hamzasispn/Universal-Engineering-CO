@@ -56,12 +56,9 @@ export default function MissionAndVision() {
         {/* Section Header */}
         <div className="mb-16 text-center about-header opacity-0">
           <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[#231F20] mb-4">
-            About Us
+            Mission & Vision
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] mx-auto mb-6"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Since 2012, we've been delivering reliable electrical panel solutions with innovation and integrity
-          </p>
         </div>
 
         {/* Main Content Grid */}
@@ -76,9 +73,9 @@ export default function MissionAndVision() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-heading text-xl font-bold text-[#231F20]">Founded in 2012</h3>
+                  <h3 className="font-heading text-xl font-bold text-[#231F20]">Vision</h3>
                   <p className="text-gray-600 mt-2">
-                    Established as a specialized engineering and manufacturing firm focused on electrical solutions
+                    To be a Leader in the Electrical Manufacturing Industries with unique attributes characterized by quality products and services, excellence in practices, and values that nurture human potential.
                   </p>
                 </div>
               </div>
@@ -90,26 +87,25 @@ export default function MissionAndVision() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-heading text-xl font-bold text-[#231F20]">Innovative Solutions</h3>
-                  <p className="text-gray-600 mt-2">
-                    Modular designs that combine technical precision with operational reliability
-                  </p>
+                  <h3 className="font-heading text-xl font-bold text-[#231F20]">MISSION</h3>
+                  <ul className="mt-2 space-y-3">
+                    {[
+                      "To develop and supply intelligent solutions and services for Electrical Distribution Systems",
+                      "To respond and adapt to our customer needs, enabling the supply of energy safely and reliably",
+                      "To achieve success through the commitment of our employees and actively engage, empower, and continuously develop our workforce.",
+                    ].map((item, index) => (
+                      <li key={index} className="flex items-start gap-3 text-gray-600">
+
+                        {/* Gradient Disc */}
+                        <span className="mt-2 w-2.5 h-2.5 rounded-full bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] flex-shrink-0"></span>
+
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-gradient-to-br from-[#355FA8] to-[#1e3a5f]">
-                    <CheckCircle2 className="text-white w-6 h-6" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-heading text-xl font-bold text-[#231F20]">International Standards</h3>
-                  <p className="text-gray-600 mt-2">
-                    Strict adherence to global electrical compliance and safety regulations
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -134,9 +130,9 @@ export default function MissionAndVision() {
         <div className="bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] rounded-xl p-8 text-white relative overflow-hidden group">
           <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
           <div className="relative z-10">
-            <h3 className="font-heading text-2xl font-bold mb-3">Our Commitment</h3>
+            <h3 className="font-heading text-2xl font-bold mb-3">Our Company History</h3>
             <p className="text-lg text-white/90">
-              From design to after-sales support, we focus on reliability, timely delivery, and building long-term partnerships with every client.
+              The Company has been established in 2012 with the aim of producing Electrical Panel and is proud to work with great effort and energy over the years using updated facilities and technologies by capable and responsible personnel to have a major share in the industry development. During its tenure, Universal Engineering has gained a wide range of manufacturing experience in industries such as Civil Construction, Oil, Gas, Cement, Chemicals, Textile, Power & Water Industries, Food, Health & Agriculture.
             </p>
           </div>
         </div>

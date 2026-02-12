@@ -122,18 +122,6 @@ export default function GlobalPresence() {
           {/* Right - Visual Element */}
           <div className="relative global-visual opacity-0">
             <GlobeMap />
-
-            {/* Stat Boxes */}
-            <div className="grid grid-cols-2 gap-4 mt-8">
-              <div className="p-4 rounded-lg bg-white/5 border border-white/20 text-center group hover:bg-[#355FA8]/20 hover:border-[#355FA8] transition-all global-stat-box opacity-0">
-                <Counter target={6} duration={2} suffix="+" className="text-3xl font-bold text-[#355FA8] font-heading" />
-                <p className="text-white/70 text-sm mt-2">Continents Served</p>
-              </div>
-              <div className="p-4 rounded-lg bg-white/5 border border-white/20 text-center group hover:bg-[#355FA8]/20 hover:border-[#355FA8] transition-all global-stat-box opacity-0">
-                <Counter target={2000} duration={2} suffix="+" className="text-3xl font-bold text-[#355FA8] font-heading" />
-                <p className="text-white/70 text-sm mt-2">International Projects</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

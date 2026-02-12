@@ -16,7 +16,7 @@ export default function Leadership() {
     },
     {
       name: 'Farrukh Khatri',
-      title: 'Director of Operation',
+      title: 'General Manager',
       quote: 'Focus • Discipline • Delivery',
       image: '/teams/farrukh-khatri.jpg',
     },
